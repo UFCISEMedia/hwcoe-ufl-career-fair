@@ -1,0 +1,516 @@
+/*!
+Theme Name: UF HWCOE 2019 Career Fair
+Theme URI: https://www.eng.ufl.edu/about-this-site/
+Description: Career Fair theme for UF HWCOE
+Author: HWCOE MARCOM
+Author URI: https://www.eng.ufl.edu/
+Template: hwcoe-ufl
+Version: 1.0.0-beta
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+h2 {
+	font-size: 42px;
+	text-align: center;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+.landing-page-hero-full .hero-img {
+	height: 250px;
+}
+
+.stud-reg-content .post-password-form {
+	text-align: center;
+}
+/*Header Styles*/
+.header.unit {
+	border-bottom: 1px solid #ccc;
+}
+
+.cf-single-button {
+	display: flex;
+	justify-content: center;
+	background-color: #00529b;
+	width: 250px;
+	margin: 0 auto 20px;
+	padding: 5px;
+}
+
+.cf-single-button a {
+	color: #fff;
+	margin: 0;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+	text-transform: uppercase;
+	font-family: inherit;
+}
+
+.cf-single-button a:hover {
+	text-decoration: underline;
+}
+
+/*Styles for Homepage content with image*/
+.content-img-wrap {
+	margin-bottom: 40px;
+}
+
+.content-with-image p:last-child {
+	margin: 0;
+}
+
+/*Filter Button Styles*/
+.controls {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.controls button {
+	border: 3px solid #bc581a;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font: 500 16px/1 "gentona","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    white-space: normal;
+    background-color: inherit;
+    margin: 5px;
+}
+
+.controls button:hover {
+    background: #f37021;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mixitup-control-active {
+    background: #f37021 !important;
+    color: #fff;	
+}
+
+/*Styles for Homepage secondary breaker*/
+.breaker {
+	background-color: #00529b;
+	background-image: none;
+	padding: 100px 0;
+}
+
+.breaker p {
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+/*Styles for Homepage Companies listing*/
+.wp-show-posts-entry-summary p {
+	text-align: center;
+}
+
+/* Company Single Post Page*/
+.company-name h1 {
+	font-size: 40px;
+	margin: 60px 0 20px;
+	line-height: 43px;
+}
+
+/*Timeline Display*/
+.timeline-display-wrapper {
+	background-color: #00529b;
+	padding: 70px 0;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.timeline-display-wrapper:before, .timeline-display-wrapper:after {
+	background-image: url("img/edge-bottom.png");
+	background-position: top center;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 40px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 5;
+}
+
+.timeline-display-wrapper:after {
+	background-image: url("img/edge-top.png");
+	background-position: bottom center;
+	bottom: auto;
+	top: 0;
+}
+
+.timeline-display-wrapper h2 {
+	color: #fff;
+}
+
+.timeline-line {
+	position: relative;
+}
+
+.timeline-line:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	border-top: 10px solid #E47426;
+	background: #E47426;
+	width: 85%;
+	transform: translateY(-50%);
+}
+
+.company-timeline .timeline-line:before {
+	display: none;
+}
+
+.timeline-wrap {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.company-timeline .timeline-wrap {
+	flex-wrap: wrap;	
+}
+
+.timeline-box {
+	height: auto;
+	width: 300px;
+	background-color: #fff;
+	padding: 17px;
+	text-align: center;
+	line-height: 28px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.company-timeline .timeline-box {
+	margin-bottom: 20px;
+}
+
+.timeline-box h2 {
+	font-size:24px;
+	line-height:28px;
+	color: #3E7198;
+}
+
+.timeline-box h3 {
+	color: #E47426;
+	font-size: 60px !important;
+	padding: 7px 0;
+}
+
+.timeline-box p {
+	font-size:18px;
+	line-height:28px;
+	margin: 0;
+}
+
+/* Tile Tab Content*/
+.double-content h2, .tile-tab-content h2 {
+	text-align: center;
+}
+
+.tile-tab-wrap {
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.tab-title, .tab-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.tab-title {
+	flex: 0 0 200px;
+	height: 200px;
+	text-align: center;
+	background-color: #00529b;
+}
+
+.tab-title h3 {
+	color: #fff;
+	font-size: 30px;
+	margin: 0;
+}
+
+.company-tiles {
+	margin-bottom: 100px;
+}
+
+.company-tiles hr {
+	display: none;
+}
+
+.company-tiles .tile-tab-wrap {
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.company-tiles .tab-title, .company-tiles .tab-content {
+	flex: 0 0 350px;
+	height: 70px;
+	text-align: center;
+	border-bottom: 1px solid #00529b;
+}
+
+.tab-content h3 {
+	font-size: 30px;
+	margin: 0;
+}
+
+/*Slideshow Gallery Style Changes*/
+.bwg_container { 
+	margin: 0 !important;
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_slideshow_dots_0 {
+	background: #E47426 !important;
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_slideshow_dots_active_0 {
+	background: #FFFFFF !important;
+	border: 1px solid #FFFFFF !important;
+}
+
+#bwg_container1_0 #bwg_container2_0 #spider_slideshow_left-ico_0, #bwg_container1_0 #bwg_container2_0 #spider_slideshow_right-ico_0 {
+	background-color: #00529b !important;
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_slideshow_image_wrap_0 {
+	background-color: rgba(0,0,0,0) !important;
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_slideshow_dots_container_0 {
+	bottom: -30px !important;
+}
+
+/*Table Styles*/
+.sponsorship-levels-table h4 {
+	color: #fff;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.sponsorship-levels-table td.column-2, .sponsorship-levels-table td.column-3 {
+	color: #008000;
+}
+
+.tablepress tfoot th {
+	font-weight: 400 !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+	margin-bottom: 5px;
+}
+
+div#reg-table_info {
+	float: left !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous, .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	color: #bc581a !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.next:hover {
+	color: #e47e3e !important;
+	text-decoration: underline !important;
+	border: none !important;
+	background: none;
+}
+
+/* Double Block Styles*/
+.double-block-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.single-block {
+	background-color: #00529b;
+	padding: 10px;
+	margin: 0 10px;
+}
+
+.single-block img {
+	max-width: 300px;
+}
+
+.single-block h2 {
+	color: #fff;
+	font-weight: 500;
+}
+.single-block a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.single-block a:hover {
+	text-decoration: underline;
+	text-decoration-color: #E47426;
+	transition: none;
+}
+
+/* Form Styles */
+.form-message-img {
+	width: 100%;
+	max-width: 400px;
+	margin: auto;
+}
+
+p.form-message {
+	text-align: center;
+	max-width: 500px;
+	margin: auto;
+}
+
+.quicksearch {
+	display: none;
+}
+
+@media (min-width: 992px){
+	.timeline-display-wrapper {
+		margin-bottom: 100px;
+		padding: 100px 0;
+	}
+	.timeline-box { 
+		padding: 25px;
+	}
+}
+
+@media (max-width: 991px){
+	.timeline-box {
+		width: 210px;
+	}
+	.timeline-box h3 {
+		font-size: 41px !important;
+	}
+}
+
+@media (max-width: 767px){
+	.content-with-image {
+		margin-bottom: 20px;
+	}
+	
+	.bwg_container { 
+		margin-bottom: 50px !important;
+	}
+	
+	table#reg-table {
+		font-size: 16px !important;
+	}
+	
+	.table-wrapper {
+		overflow-x: scroll;
+		white-space: nowrap;
+		width: 100%;
+	}
+	
+	div#reg-table_info {
+		float: none !important;
+	}
+}
+
+@media (max-width: 730px){
+	.tile-tab-wrap {
+		flex-direction: column;
+	}
+
+	.tab-title {
+		flex: 0 0 70px;
+		height: auto;
+		padding-top: 10px;
+		margin-bottom: 20px;
+	}
+	
+	.company-tiles .tile-tab-wrap {
+		flex-direction: row;
+	}
+	
+	.company-tiles .tab-title, .company-tiles .tab-content {
+		flex: 0 0 275px;
+	}
+	
+	.tab-title h3, .tab-content h3 {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 710px){
+	.double-block-wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.single-block {
+		max-width: 300px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 700px){
+	.sponsorship-levels-table h4 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 670px){
+	.timeline-line:before, .company-timeline .timeline-line:before {
+		top: 40px;
+		left: 50%;
+		border-top: none;
+		background: #E47426;
+		width: 10px;
+		height: 400px;
+		transform: translateX(-50%);
+	}
+	
+	.company-timeline .timeline-line:before {
+		display: block;
+		height: 900px;
+	}
+	
+	.timeline-wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.timeline-box {
+		width: auto;
+		margin: 10px 0;
+	}
+	.timeline-box br {
+		display: none;
+	}
+}
+
+@media (max-width: 580px){
+	.company-tiles .tile-tab-wrap {
+		flex-direction: column;
+	}
+	
+	.company-tiles .tab-title, .company-tiles .tab-content {
+		flex: 0 0 60px;
+	}
+	
+	.company-tiles .tab-title {
+		margin-bottom: 0;
+	}
+	
+	.company-tiles .tab-content {
+		margin-bottom: 10px;
+	}
+}
