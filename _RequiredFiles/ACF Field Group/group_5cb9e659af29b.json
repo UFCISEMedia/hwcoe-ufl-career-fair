@@ -4,6 +4,25 @@
         "title": "Event Information Modules",
         "fields": [
             {
+                "key": "field_5cf1793f87a84",
+                "label": "Event Display Name",
+                "name": "event_display_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
                 "key": "field_5cb9ee6917101",
                 "label": "Event Semester",
                 "name": "event_semester",
@@ -124,6 +143,25 @@
                 "maxlength": "",
                 "rows": "",
                 "new_lines": "br"
+            },
+            {
+                "key": "field_5cf1796087a85",
+                "label": "Event Location - only venue name",
+                "name": "event_location_simple",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
             },
             {
                 "key": "field_5cb9e6b44b15c",
