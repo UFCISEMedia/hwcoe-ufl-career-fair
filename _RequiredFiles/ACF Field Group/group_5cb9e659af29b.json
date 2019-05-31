@@ -126,6 +126,44 @@
                 "placeholder": ""
             },
             {
+                "key": "field_5cf17b80dd884",
+                "label": "Event Start Time",
+                "name": "event_start_time",
+                "type": "text",
+                "instructions": "Include a.m. or p.m.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "1 p.m.",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5cf17ba4dd885",
+                "label": "Event End Time",
+                "name": "event_end_time",
+                "type": "text",
+                "instructions": "Include a.m. or p.m.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "6 p.m.",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
                 "key": "field_5cb9e69b4b15b",
                 "label": "Event Location",
                 "name": "event_location",
