@@ -12,7 +12,7 @@
 				<?php endwhile // have_rows ?>
 				<button type="button" data-filter="all">All</button>
 			</div>
-			<?php echo do_shortcode('[CUSTOM_POST_POPUP type="post" posts_per_page="50" order="ASC" orderby="title" category_name="current"]'); ?>
+			<?php echo do_shortcode('[COMPANY_DISPLAY type="post" posts_per_page="50" order="ASC" orderby="title" category_name="current"]'); ?>
 		</div>
 	</div>
 </div>
