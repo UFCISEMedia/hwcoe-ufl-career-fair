@@ -91,7 +91,7 @@
                 "placeholder": "",
                 "maxlength": "",
                 "rows": 10,
-                "new_lines": ""
+                "new_lines": "wpautop"
             }
         ],
         "location": [
