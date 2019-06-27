@@ -1,0 +1,346 @@
+{
+	"key": "group_5cb9e659af29b",
+	"title": "Event Information Modules",
+	"fields": [
+		{
+			"key": "field_5cf1793f87a84",
+			"label": "Event Display Name",
+			"name": "event_display_name",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9ee6917101",
+			"label": "Event Semester",
+			"name": "event_semester",
+			"type": "select",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {
+				"Fall": "Fall",
+				"Spring": "Spring"
+			},
+			"default_value": [],
+			"allow_null": 0,
+			"multiple": 0,
+			"ui": 0,
+			"return_format": "value",
+			"ajax": 0,
+			"placeholder": ""
+		},
+		{
+			"key": "field_5cb9e6654b158",
+			"label": "Event Month",
+			"name": "event_month",
+			"type": "select",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {
+				"Jan.": "Jan.",
+				"Feb.": "Feb.",
+				"Sept.": "Sept.",
+				"Oct.": "Oct."
+			},
+			"default_value": [],
+			"allow_null": 0,
+			"multiple": 0,
+			"ui": 0,
+			"return_format": "value",
+			"ajax": 0,
+			"placeholder": ""
+		},
+		{
+			"key": "field_5cb9e68b4b159",
+			"label": "Event Day",
+			"name": "event_day",
+			"type": "number",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": 20,
+			"prepend": "",
+			"append": "",
+			"min": 1,
+			"max": 31,
+			"step": ""
+		},
+		{
+			"key": "field_5cb9e6944b15a",
+			"label": "Event Year",
+			"name": "event_year",
+			"type": "select",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {
+				"2019": "2019",
+				"2020": "2020",
+				"2021": "2021",
+				"2022": "2022",
+				"2023": "2023",
+				"2024": "2024",
+				"2025": "2025"
+			},
+			"default_value": [],
+			"allow_null": 0,
+			"multiple": 0,
+			"ui": 0,
+			"return_format": "value",
+			"ajax": 0,
+			"placeholder": ""
+		},
+		{
+			"key": "field_5cf17b80dd884",
+			"label": "Event Start Time",
+			"name": "event_start_time",
+			"type": "text",
+			"instructions": "Include a.m. or p.m.",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "1 p.m.",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cf17ba4dd885",
+			"label": "Event End Time",
+			"name": "event_end_time",
+			"type": "text",
+			"instructions": "Include a.m. or p.m.",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "6 p.m.",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9e69b4b15b",
+			"label": "Event Location",
+			"name": "event_location",
+			"type": "textarea",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "",
+			"maxlength": "",
+			"rows": "",
+			"new_lines": "br"
+		},
+		{
+			"key": "field_5cf1796087a85",
+			"label": "Event Location - only venue name",
+			"name": "event_location_simple",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9e6b44b15c",
+			"label": "Student Registration Opens",
+			"name": "student_registration_opens",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "Aug. 1",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9e6c04b15d",
+			"label": "Student Registration Closes",
+			"name": "student_registration_closes",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "Sept. 22",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9e6c94b15e",
+			"label": "Company Registration Opens",
+			"name": "company_registration_opens",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "June 1",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9ecdf4b161",
+			"label": "Company Marketing Deadline",
+			"name": "company_marketing_deadline",
+			"type": "text",
+			"instructions": "Companies register by this deadline to have their logo displayed on promotional materials.",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "Aug. 30",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9ec714b15f",
+			"label": "Company Registration Closes",
+			"name": "company_registration_closes",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "Sept. 9",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5cb9eca04b160",
+			"label": "Company Display Items",
+			"name": "company_display_items",
+			"type": "text",
+			"instructions": "The date that companies must deliver their display items by to guarantee their availability at the event.",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "Sept. 20",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "post_type",
+				"operator": "==",
+				"value": "cf-event_information"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": [
+		"the_content",
+		"excerpt",
+		"discussion",
+		"comments",
+		"revisions",
+		"slug",
+		"author",
+		"format",
+		"page_attributes",
+		"featured_image"
+	],
+	"active": true,
+	"description": ""
+}
