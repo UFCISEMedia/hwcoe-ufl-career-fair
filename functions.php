@@ -43,8 +43,7 @@ if ( !function_exists( 'hwcoe_ufl_child_icon_url' ) ) {
 /*
  * Theme variable definitions
  */
-define( "HWCOE_UFL_CHILD_INC_DIR", get_stylesheet_directory() . "/inc/modules" );
-
+define( "HWCOE_UFL_CAREER_INC_DIR", get_stylesheet_directory() . "/inc/modules" );
 /*
 * Visual Editor Styles
 */
