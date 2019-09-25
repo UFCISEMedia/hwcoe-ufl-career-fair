@@ -41,6 +41,14 @@
 				<?php endif // short_timeline_display ?>
 				<?php
 				  /*
+				   * Long Timeline Display
+				   */
+				  ?>
+				<?php if( get_row_layout() == 'long_timeline_display' ): ?>
+					<?php include( HWCOE_UFL_CAREER_INC_DIR . '/ufl-cf-long-timeline.php' ); ?>
+				<?php endif // long_timeline_display ?>
+				<?php
+				  /*
 				   * Double Blocks
 				   */
 				  ?>
