@@ -7,6 +7,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Changelog
 
+1.0.2
+- Modifies Landing Page Module to add optional map link to Company Display with Sort layout
+- Modifies Company Display with Sort template to include display of optional link
+
 1.0.1
 - Added initial files for career fair site
 

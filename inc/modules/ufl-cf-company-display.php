@@ -1,7 +1,10 @@
 <div class="container content-wrap">
 	<div class="row">
 		<div class="col-sm-12 codisplay">
-			<h2><?php the_sub_field( 'headline' ); ?></h2>			
+			<h2><?php the_sub_field( 'headline' ); ?></h2>
+			<?php if(get_sub_field( 'map_link' )) {
+				echo '<h4 style="text-align: center;"><a href="' . get_sub_field( 'map_link' ) . '" target="_blank" rel="noopener">View a map of the event</a></h4>';
+			 } ?>					
 			<div class="controls">
 				<?php while( have_rows( 'buttons' ) ) : the_row(); ?>
 					<?php 
