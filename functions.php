@@ -63,7 +63,7 @@ function my_mce_before_init_insert_formats( $init_array ) {
 			'title' => 'Button',  
 			'block' => 'div',  
 			'classes' => 'cf-single-button',
-			'wrapper' => true,
+			'wrapper' => false,
 			
 		),  
 	);  
