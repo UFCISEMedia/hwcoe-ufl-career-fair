@@ -60,10 +60,19 @@
 				"id": ""
 			},
 			"choices": {
+				"TBD": "TBD",
 				"Jan.": "Jan.",
 				"Feb.": "Feb.",
+				"March": "March",
+				"April": "April",
+				"May": "May",
+				"June": "June",
+				"July": "July",
+				"Aug.": "Aug.",
 				"Sept.": "Sept.",
-				"Oct.": "Oct."
+				"Oct.": "Oct.",
+				"Nov.": "Nov.",
+				"Dec.": "Dec."
 			},
 			"default_value": [],
 			"allow_null": 0,
@@ -108,7 +117,6 @@
 				"id": ""
 			},
 			"choices": {
-				"2019": "2019",
 				"2020": "2020",
 				"2021": "2021",
 				"2022": "2022",
