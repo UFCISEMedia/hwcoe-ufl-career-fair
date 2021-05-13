@@ -7,6 +7,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Changelog
 
+1.0.3
+- Adds a separate template for the Career Fair landing page to help make parent theme updates smoother. 
+
 1.0.2
 - Modifies Landing Page Module to add optional map link to Company Display with Sort layout
 - Modifies Company Display with Sort template to include display of optional link
