@@ -58,7 +58,7 @@ add_filter('mce_buttons_2', 'my_mce_buttons_2');
 function my_mce_before_init_insert_formats( $init_array ) {  
 	// Define the style_formats array
 	$style_formats = array(  
-		// Each array child is a format with it's own settings
+		// Each array child is a format with its own settings
 		array(  
 			'title' => 'Button',  
 			'block' => 'div',  
